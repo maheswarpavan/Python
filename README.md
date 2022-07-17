@@ -1,2 +1,2 @@
 # Python
-Began to learn python 
+Basics of python
