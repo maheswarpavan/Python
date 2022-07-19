@@ -1,8 +1,6 @@
 # Python
 Began to learn python 
 
-a= {1:'hello', 'fuck': 33, 3:'mami'}
-print(a['fuck'])
 
 a= {1:'hello', 'fuck': 33, 3:'mami'}
 print(a['fuck'])
@@ -10,3 +8,12 @@ a[1]='hi'
 print(a)
 b = {1:'hello', 'fuck': 33, 3:{'mami' : {'sorry','ash'}, 4 :'jojo'}}
 print(b[3]['mami'])
+print(b.get(99,'fuck off'))
+x=[33,38,54,36,6]
+y=[235,23523,5235,22]
+c=dict(zip(x,y))
+print(c)
+c[99]='hari'
+print(c)
+del c[36]
+print(c)
