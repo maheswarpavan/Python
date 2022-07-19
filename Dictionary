@@ -1,0 +1,5 @@
+# Python
+Began to learn python 
+
+a= {1:'hello', 'fuck': 33, 3:'mami'}
+print(a['fuck'])
