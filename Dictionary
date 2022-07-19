@@ -3,3 +3,10 @@ Began to learn python
 
 a= {1:'hello', 'fuck': 33, 3:'mami'}
 print(a['fuck'])
+
+a= {1:'hello', 'fuck': 33, 3:'mami'}
+print(a['fuck'])
+a[1]='hi'
+print(a)
+b = {1:'hello', 'fuck': 33, 3:{'mami' : {'sorry','ash'}, 4 :'jojo'}}
+print(b[3]['mami'])
