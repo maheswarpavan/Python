@@ -1,0 +1,8 @@
+# Python
+Began to learn python 
+import math as m
+for i in range(0,500):
+    for y in range (0,500):
+        if (i==y and i*y< 500):
+            print(i*y)
+
