@@ -1,0 +1,10 @@
+# Python
+Began to learn python 
+y=4
+while y>0:
+    x = 5
+    while x>0:
+        print("# ", end="")
+        x=x-1
+    print()
+    y = y - 1
