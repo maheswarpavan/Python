@@ -1,0 +1,16 @@
+# Python
+Began to learn python 
+x=int(input(print("Enter a number: ")))
+y=1
+a=0
+while x>=y :
+
+    if(y%5==0 or y%3==0):
+        y=y+1
+        a=a+1
+    else :
+        print(y)
+        y=y+1
+print("Numbers ignored are: ", a)
+
+
