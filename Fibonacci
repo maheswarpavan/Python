@@ -1,0 +1,10 @@
+# Python
+Began to learn python 
+c=0
+a,b=0,1
+for i in range(1,50):
+    c = a + b
+    a=b
+    b=c
+    if c<=50:
+        print(c)
