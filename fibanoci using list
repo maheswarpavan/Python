@@ -1,0 +1,11 @@
+# Python
+Began to learn python 
+
+x=[0,1]
+a,b=x[0],x[1]
+for i in range(0,20,1):
+    c=a+b
+    x.append(c)
+    a=x[i+1]
+    b=x[i+2]
+print(x)
