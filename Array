@@ -1,0 +1,6 @@
+# Python
+Began to learn python 
+import array as a
+x=a.array('i',[55,4,5,8,2,3,8])
+for i in range(len(x)):
+    print(x[i])
