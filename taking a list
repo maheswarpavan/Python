@@ -1,0 +1,8 @@
+# Python
+Began to learn python 
+x=int(input("Enter the length of array: "))
+a=[]
+for i in range(0,x):
+    print("enter ",i+1," element")
+    a.append(int(input()))
+print(a)
