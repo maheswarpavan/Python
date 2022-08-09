@@ -1,0 +1,11 @@
+# Python
+Began to learn python 
+x=[4,3,8,9]
+y = int(input("Enter the value which needs to be searched :"))
+for i in range(len(x)):
+    if(x[i]==y):
+        print("The index number is ", i+1)
+        break
+else:
+    print("value not found")
+
