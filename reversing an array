@@ -1,0 +1,10 @@
+# Python
+Began to learn python 
+
+import array as a
+x=a.array('i', [4,3,8,9,2])
+y=a.array('i',[])
+for i in range(len(x)):
+    y.append(x[len(x)-i-1])
+print(y)
+
