@@ -1,0 +1,9 @@
+# Python
+Began to learn python 
+a=10
+def funv():
+    global a
+    a = 12
+    print(a)
+print(a)
+funv()
