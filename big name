@@ -1,0 +1,8 @@
+# Python
+Began to learn python 
+x=['harisf','sudhaaaa', 'arya', 'pavan']
+c=0
+for i in x :
+    if(len(i)>5):
+        c=c+1
+print(c)
