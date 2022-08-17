@@ -1,0 +1,10 @@
+# Python
+Began to learn python 
+a = [0,1]
+c,d = 0,0
+for i in range(0,100-2):
+    d = a[i]+a[i+1]
+    a.append(d)
+    if(a[i+2]>=55):
+        break
+print(a)
