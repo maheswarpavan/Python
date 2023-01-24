@@ -1,0 +1,9 @@
+def Merge(dic1, dic2, dic3):
+    result = dic1 | dic2 | dic3
+    return result
+
+dic1= {'hari':22, 'pavan':28, 'kavi':23}
+dic2= {'sony':58, 'srinu': 89}
+dic3= {'sree':59, 'amu': 25, 'hari':89, 'pri': 94}
+dic4 = Merge(dic1, dic2,  dic3)
+print(dic4)
